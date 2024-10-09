@@ -2,7 +2,8 @@
 Из папки server запускаем сервер: python app.py
 Из папки client запускаем клиента: npm run dev\
 Переходим по адресу:\
-http://localhost:8080/\
+http://localhost:8080/
+\
 Страница с данными:\
 ![image](https://github.com/user-attachments/assets/68bb6412-e9ec-4f78-ad8c-b748003c1ed7)
 \
