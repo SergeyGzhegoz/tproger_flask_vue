@@ -30,8 +30,9 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 
 # enable CORS
-cors = CORS(app)
-app.config["CORS_HEADERS"] = "Content-Type"
+# cors = CORS(app)
+# app.config["CORS_HEADERS"] = "Content-Type"
+CORS(app, resources={r'/*': {'origins': '*'}})
 
 
 @app.before_request
