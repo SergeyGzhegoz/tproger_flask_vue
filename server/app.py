@@ -81,7 +81,7 @@ def remove_book(book_id):
     return False
 
 
-@app.route("/books/", methods=["PUT", "DELETE"])
+@app.route("/books/<book_id>", methods=["PUT", "DELETE"])
 def single_book(book_id):
     print(book_id)
     response_object = {"status": "success"}
